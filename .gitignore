@@ -1,0 +1,49 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.svn/
+bin/
+
+# Intellij
+.idea/
+*.ipr
+*.iml
+*.iws
+.idea
+out/
+.DS_Store
+/bootstrap
+/dependencies.xml
+.java-version
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+/_env.sh
+dist
